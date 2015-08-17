@@ -1,0 +1,14 @@
+name:           mismatchtea
+url:            http://mismatchtea.uk
+permalink:      /blog/:year/:title
+exclude:        [mismatchtea.sublime-project,mismatchtea.sublime-workspacel]
+postAssets:      /items #location of images and resources for posts
+sass:
+    style: :compressed
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"

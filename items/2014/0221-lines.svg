@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 430 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lines</title>
+        <g transform="translate(5,0)" stroke-width="3">
+            <path d="M0,40 L120,40" id="11" stroke="#979797"></path>
+            <path d="M0,80 L120,80" id="21" stroke="#AA6D74"></path>
+            <path d="M130,80 L270,80" id="22" stroke="#AA6D74"></path>
+            <path d="M0,120 L120,120" id="31" stroke="#4A90E2"></path>
+            <path d="M130,120 L270,120" id="32" stroke="#4A90E2"></path>
+            <path d="M280,120 L420,120" id="33" stroke="#4A90E2"></path>
+        </g>
+</svg>

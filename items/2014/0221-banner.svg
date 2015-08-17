@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>banner</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="banner" stroke="#9012FE" stroke-width="4">
+            <rect id="rec2" x="255" y="85" width="407" height="105"></rect>
+            <rect id="rec3" x="255" y="85" width="95"  height="156"></rect>
+            <rect id="rec4" x="420" y="38" width="403" height="121"></rect>
+            <rect id="rec5" x="58"  y="7"  width="292" height="152"></rect>
+        </g>
+    </g>
+</svg>

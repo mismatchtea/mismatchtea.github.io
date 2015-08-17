@@ -1,0 +1,275 @@
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+* {
+  box-sizing: border-box;
+}
+
+html, body { 
+  padding: 0;
+  margin: 0;
+  min-height: 60em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font: 20px/1.375 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #555;
+  min-width: 13em;
+}
+
+img, svg{
+  display: block;
+  margin: auto;
+  max-width: 90%;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+main, .header-container, .footer-container{
+  width: 90%;
+  max-width: 64em;
+  margin: auto;
+}
+
+main {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.header-main, .footer-main {
+  background-color: #456;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 0.5em;
+}
+
+.header-icon-container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -webkit-flex: 2; /*autoprefixer overwrite*/
+  height: 4em;
+}
+
+#header-icon-img {
+  display: inline;
+  height: 4em;
+  width: 4em;
+  margin: 0;
+}
+
+nav {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: white;
+  padding-right: 0.5em;
+}
+
+nav a:last-child{
+  padding-right: 0;
+}
+
+.banner-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column; 
+  -webkit-box-align: center; 
+  -webkit-align-items: center; 
+      -ms-flex-align: center; 
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+.banner-img {
+ width: 90%;
+ max-width: 64em;
+ max-height: 20em;
+}
+
+.banner-text {
+  font-family: 'Nothing You Could Do', cursive, sans-serif;
+}
+
+.index-banner-text {
+  color: #456;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.banner-text, .index-banner-text{
+  font-size: 2em;
+  max-width: 90%;
+}
+
+.footer-main {
+  -webkit-box-flex: 0.3;
+  -webkit-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+
+.footer-container{
+  color: white;
+}
+
+.nav-active{
+  color: #abc;
+}
+
+.meta{ 
+  color: purple;
+}
+
+.bottom-nav{
+  display: block;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.next{
+  padding-left: 3em;
+}
+
+.list-articles, .index-list-articles{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.index-list-articles{
+    border-bottom: 1px solid #abc;
+}
+
+.list-articles-date {
+  font-size: 0.9em;
+  color: #abc;
+  margin-top: 0;
+}
+
+.list-articles-header {
+  margin: 0;
+}
+
+h1{
+  font-family: 'Nothing You Could Do', cursive, sans-serif;
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1em;
+  color: #abc;
+  padding: 0;
+  padding-top: 1em;
+  margin: 0;
+}
+
+h2,h3,h4, h1 a{
+  color: #abc;
+}
+
+h2,h3,h4{
+  font-weight: normal;
+}
+
+/* =============
+   intermediate - horizontnal nav, two lines
+   ============= */
+@media only screen and (min-width: 18em) {
+  nav {
+    -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+}
+
+/* =============
+   large - horizontal nav, same line
+   ============= */
+@media only screen and (min-width: 27em) {
+  .header-container {
+    -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    padding-bottom: 0;
+  }  
+
+  img, svg{
+    max-width: 20em;
+  }
+
+  h1{
+    font-size: 3em;
+  }
+
+  .banner-text {
+    font-size: 3em;
+  }
+
+  .index-banner-text {
+    font-size: 2.5em;
+  }
+}

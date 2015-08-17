@@ -1,0 +1,22 @@
+---
+layout: default
+<!-- banner: indexBanner.svg -->
+title: mismatchtea
+---
+
+<div class="banner-container">
+{%include indexBanner.svg%}
+<div class="index-banner-text">{{page.title}}</div>
+</div>
+
+{% for post in site.posts limit:2 %}
+<article class="index-list-articles">
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{{post.content}}
+</article>{% endfor %}{% for post in site.posts offset:2 limit:1 %}
+<article><h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{{post.content}}
+</article>
+{% endfor %}
+
+<div class="bottom-nav"><a href="/archive">more posts in the archive</a></div>

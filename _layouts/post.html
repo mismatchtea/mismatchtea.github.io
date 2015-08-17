@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% if page.banner %}{% else %}
+<h1>{{ page.title }}</h1>{% endif %}
+<p class="meta">{{ page.date | date_to_string }}</p>
+{{ content }}
+
+<div class="bottom-nav">{% if page.previous.url %}<a class="previous" href="{{page.previous.url}}">&lt;&lt; previous</a>{% else %}<span class="previous">&lt;&lt; previous</span>{% endif %} {% if page.next.url %}<a class="next" href="{{page.next.url}}">next &gt;&gt;</a>{% else %} <span class="next">next &gt;&gt;</span>{% endif %}</div>

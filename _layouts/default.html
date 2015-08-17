@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>mismatchtea {% if page.title %}| {{ page.title }} {% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="resources and ideas for teaching maths">
+
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
+
+    <link rel="icon" href="/favicon.png">
+    <link rel="stylesheet" href="/assets/main.css">
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
+    </script>
+
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+    <header class="header-main">
+      <div class="header-container">
+        <div class="header-icon-container">
+          <a href="/">
+            <img id="header-icon-img" src="/assets/logo.svg" alt="logo">
+          </a>
+        </div>
+        <nav>{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+          <a {% if location == 'blog' or location == 'archive' %}class="nav-active" {% endif %}href="/archive">archive</a>
+          <a {% if location == 'resources' %}class="nav-active" {% endif %}href="/resources">resources</a>
+          <a {% if location == 'about' %}class="nav-active" {% endif %}href="/about">about</a>
+        </nav>
+      </div>
+    </header>
+  {% if page.banner %}
+    <div class="banner-container">
+      <img class="banner-img" src="{{site.postAssets}}/{{ page.banner }}">
+      {% if page.bannerText %}<div class="banner-text">{{page.bannerText}}</div>{% else %}<span class="banner-text">{{ page.title }}</span>{% endif %}
+    </div>{% endif %}
+    <main>{{ content }}  </main>
+
+    <footer class="footer-main">
+      <div class="footer-container">
+        <p>&copy; 2015 mismatchtea.co.uk</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 490 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>size3</title>
+  <g id="size4" transform="translate(5,0)" stroke="#4A90E2" stroke-width="3" stroke-linecap="butt" fill="none">
+    <rect id="rectangle" x="0" y="0" width="480" height="200" ></rect>
+    <path d="M120,0   L120,200" id="v1"></path>
+    <path d="M240,0   L240,200" id="v2"></path>
+    <path d="M360,0   L360,200" id="v3"></path>
+    <path d="M0,50    L480,50"  id="h1"></path>
+    <path d="M0,100   L480,100" id="h2"></path>
+    <path d="M0,150   L480,150" id="h3"></path>
+  </g>
+</svg>

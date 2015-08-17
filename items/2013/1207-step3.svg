@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 140 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>step 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="step-3" transform="translate(-18.000000, -18.000000)">
+            <path d="M74.710228,180.757536 L130.639281,148.463173 L74.710228,116.174125 L74.710228,180.757536 Z" id="Fill-3"></path>
+            <path d="M130.639281,148.463173 L130.639281,83.8850774 L74.710228,116.174125 L130.639281,148.463173 Z" id="Fill-4"></path>
+            <path d="M74.710228,180.757536 L18.7811747,148.463173 L74.710228,116.174125 L74.710228,180.757536 Z" id="Fill-5" fill="#0000FF"></path>
+            <path d="M18.7811747,148.463173 L18.7811747,83.8850774 L74.710228,116.174125 L18.7811747,148.463173 Z" id="Fill-6" fill="#0000FF"></path>
+            <path d="M74.710228,51.5907138 L18.7811747,83.8850774 L74.710228,116.174125 L74.710228,51.5907138 Z" id="Fill-7" fill="#0000FF"></path>
+            <path d="M74.710228,116.174125 L130.639281,83.8850774 L74.710228,51.5907138 L74.710228,116.174125 Z" id="Fill-8" fill="#00FF00"></path>
+            <path d="M18.7811747,83.8850774 L18.7811747,19.3016662 L74.710228,51.5907138 L18.7811747,83.8850774 Z" id="Fill-9" fill="#00FF00"></path>
+            <path d="M74.710228,116.174125 L74.710228,180.757536" id="Stroke-10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M130.639281,148.463173 L74.710228,116.174125" id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,180.757536 L130.639281,148.463173" id="Stroke-12" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,116.174125 L130.639281,148.463173" id="Stroke-13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M130.639281,83.8850774 L74.710228,116.174125" id="Stroke-14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M130.639281,148.463173 L130.639281,83.8850774" id="Stroke-15" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,116.174125 L74.710228,180.757536" id="Stroke-16" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,148.463173 L74.710228,116.174125" id="Stroke-17" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,180.757536 L18.7811747,148.463173" id="Stroke-18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,116.174125 L18.7811747,148.463173" id="Stroke-19" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,83.8850774 L74.710228,116.174125" id="Stroke-20" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,148.463173 L18.7811747,83.8850774" id="Stroke-21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,116.174125 L74.710228,51.5907138" id="Stroke-22" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,83.8850774 L74.710228,116.174125" id="Stroke-23" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,51.5907138 L18.7811747,83.8850774" id="Stroke-24" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,51.5907138 L74.710228,116.174125" id="Stroke-25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M130.639281,83.8850774 L74.710228,51.5907138" id="Stroke-26" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,116.174125 L130.639281,83.8850774" id="Stroke-27" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M74.710228,51.5907138 L18.7811747,83.8850774" id="Stroke-28" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,19.3016662 L74.710228,51.5907138" id="Stroke-29" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.7811747,83.8850774 L18.7811747,19.3016662" id="Stroke-30" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
