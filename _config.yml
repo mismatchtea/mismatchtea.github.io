@@ -1,7 +1,7 @@
 name:           mismatchtea
 url:            http://mismatchtea.uk
 permalink:      /blog/:year/:title
-exclude:        [mismatchtea.sublime-project,mismatchtea.sublime-workspacel]
+exclude:        [mmt.sublime-project,mmt.sublime-workspacel]
 postAssets:      /items #location of images and resources for posts
 sass:
     style: :compressed
