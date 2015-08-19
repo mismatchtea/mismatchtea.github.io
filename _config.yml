@@ -1,5 +1,6 @@
 name:           mismatchtea
 url:            http://mismatchtea.uk
+description:    "resources and ideas for teaching maths"
 permalink:      /blog/:year/:title
 exclude:        [mmt.sublime-project,mmt.sublime-workspacel]
 postAssets:      /items #location of images and resources for posts
