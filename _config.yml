@@ -4,12 +4,24 @@ description:    "resources and ideas for teaching maths"
 permalink:      /blog/:year/:title
 exclude:        [mmt.sublime-project,mmt.sublime-workspacel]
 postAssets:      /items #location of images and resources for posts
+resourceAssets:  /resources/items #location of resources
 sass:
     style: :compressed
+
+collections:
+  resources:
+    output: true
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
+      layout: post
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: resources
+    values:
+      layout: resource

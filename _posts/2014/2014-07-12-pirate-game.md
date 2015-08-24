@@ -4,7 +4,7 @@ title: "the pirate game"
 date: 2014-07-12 14:38:53
 description: "it's the end of term and time for the pirate game"
 categories: [games]
-tags: [pirate "end of term" game]
+tags: [pirate, "end of term", game]
 ---
 
 I first came across The Pirate Game a couple of years ago when a colleague recommended it as an end of term activity. Since then it's been a firm favourite with classes as an end of term activity. The game I have used was created by Paul Collins and is available on the [TES website][resource].

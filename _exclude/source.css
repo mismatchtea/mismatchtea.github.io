@@ -186,6 +186,17 @@ h2,h3,h4{
   font-weight: normal;
 }
 
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #6B238E;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote p {
+  display: inline;
+}
+
 /* =============
    intermediate - horizontnal nav, two lines
    ============= */

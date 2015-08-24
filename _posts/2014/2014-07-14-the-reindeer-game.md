@@ -4,7 +4,7 @@ title: "the reindeer game"
 date: 2014-07-14 21:29:05
 description: "a quick follow on from the previous post with a spreadsheet for the reindeer game"
 categories: [games]
-tags: [reindeer game "end of term"]
+tags: [reindeer, game, "end of term"]
 ---
 
 Just a quick follow on from my [previous post][pirate] about The Pirate Game. [Here][reindeer] is a spreadsheet for [The Reindeer Game][resource]. 
