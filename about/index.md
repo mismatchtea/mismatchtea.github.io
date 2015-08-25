@@ -37,7 +37,7 @@ Any views or opinions presented on this blog are my own and do not necessarily r
 
 [tea]: {{site.postAssets}}/about/tea.svg
 [twitter]: https://twitter.com/mismatchtea
-[geogebratube]: http://www.geogebratube.org/user/profile/id/659
+[geogebratube]: http://www.geogebratube.org/user/profile/id/659/p/materials
 [tes]: https://www.tes.co.uk/mypublicprofile.aspx?uc=734854&profileTab=resources
 [jekyll]: http://jekyllrb.com/
 [jekyllimage]: {{site.postAssets}}/about/jekyll.png
