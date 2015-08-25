@@ -1,0 +1,17 @@
+---
+layout: default
+title: presentations
+---
+
+<h1>presentations</h1>
+
+<p>The presentations listed below contain minimal information for a variety of topics and are designed to support key ideas through diagrams, examples and exercises. They are not meant as notes for students. They will be updated as I teach topics again. </p>
+
+<p>These presentations are PDF files. In order to run them as a presentation in <a href="http://get.adobe.com/uk/reader/">Adobe Reader</a> use <code>ctrl + L </code> (windows). </p>
+
+<blockquote>This section is work in progress. More to follow ...</blockquote>
+
+{% for resource in site.presentations %}
+  {% unless resource.title == "presentations" %}
+   <a href="{{site.resourceAssets}}/{{resource.filename}}"><h2>{{ resource.title }}</h2></a>{% endunless %}
+{% endfor %}
