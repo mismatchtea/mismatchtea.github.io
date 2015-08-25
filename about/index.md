@@ -8,7 +8,7 @@ title: about
 
 ![tea][tea]
 
-I'm Huw Mort, a maths teacher in Lincolnshire. The primary purpose of the [blog][blog] is for me to keep a record of my experiences in the classroom. Resources I have created are shared in the [resources][resources] section of the website.
+I'm Huw Mort, a maths teacher in Lincolnshire. The primary purpose of the [blog][blog] is for me to keep a record of my experiences in the classroom. Resources I have created are shared in the [presentations][presentations] section of the website.
 
 ## elswhere
 
@@ -42,5 +42,5 @@ Any views or opinions presented on this blog are my own and do not necessarily r
 [jekyll]: http://jekyllrb.com/
 [jekyllimage]: {{site.postAssets}}/about/jekyll.png
 [reader]: http://get.adobe.com/uk/reader/
-[resources]: /resources
+[presentations]: /presentations
 [blog]: /

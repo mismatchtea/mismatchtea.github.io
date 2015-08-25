@@ -17,9 +17,9 @@ I have loads of ideas for posts so to kick things off the site has been redesign
 
 It's still work in progress, but it's getting there.
 
-Some of the resources have been reorganised behind the scenes, so I hope this doesn't cause anything to break. This is to get things ready for the [resources][resources] section of the site.
+Some of the resources have been reorganised behind the scenes, so I hope this doesn't cause anything to break. This is to get things ready for the [presentations][presentations] section of the site.
 
-[resources]: /resources
+[presentations]: /presentations
 [pages]: https://pages.github.com/
 [old]: {{site.postAssets}}/2015/0818-old.png
 [new]: {{site.postAssets}}/2015/0818-new.png

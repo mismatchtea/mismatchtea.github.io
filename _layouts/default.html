@@ -34,7 +34,7 @@
         </div>
         <nav>{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
           <a {% if location == 'blog' or location == 'archive' %}class="nav-active" {% endif %}href="/archive">archive</a>
-          <a {% if location == 'resources' %}class="nav-active" {% endif %}href="/resources">resources</a>
+          <a {% if location == 'presentations' %}class="nav-active" {% endif %}href="/presentations">presentations</a>
           <a {% if location == 'about' %}class="nav-active" {% endif %}href="/about">about</a>
         </nav>
       </div>
