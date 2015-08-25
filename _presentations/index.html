@@ -13,5 +13,5 @@ title: presentations
 
 {% for resource in site.presentations %}
   {% unless resource.title == "presentations" %}
-   <a href="{{site.resourceAssets}}/{{resource.filename}}"><h2>{{ resource.title }}</h2></a>{% endunless %}
+   <a href="{{site.presentationAssets}}/{{resource.filename}}"><h2>{{ resource.title }}</h2></a>{% endunless %}
 {% endfor %}

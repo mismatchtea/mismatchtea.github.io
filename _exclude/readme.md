@@ -6,4 +6,4 @@ Use auto-prefixer on source.css to create main.css.
 
 ## links to resources
 
-use {{site.resourceAssets}}/{{page.filename}}
+use {{site.presentationAssets}}/{{page.filename}}

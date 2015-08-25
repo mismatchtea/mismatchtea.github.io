@@ -4,7 +4,7 @@ description:    "resources and ideas for teaching maths"
 permalink:      /blog/:year/:title
 exclude:        [mmt.sublime-project,mmt.sublime-workspacel]
 postAssets:      /items #location of images and resources for posts
-resourceAssets:  /presentations/items #location of presentations
+presentationAssets:  /presentations/items #location of presentations
 sass:
     style: :compressed
 
