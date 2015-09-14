@@ -23,6 +23,8 @@ This site is built using [Jekyll][jekyll], a static site generator.
 
 [![jekyll][jekyllimage]][jekyll]
 
+It is [hosted][hosted] on [GitHub Pages][pages], so you are welcome to take a look.
+
 ### images
 Some of the images use the .svg format, which require a modern browser to render.
 
@@ -44,3 +46,5 @@ Any views or opinions presented on this blog are my own and do not necessarily r
 [reader]: http://get.adobe.com/uk/reader/
 [presentations]: /presentations
 [blog]: /
+[hosted]: https://github.com/mismatchtea/mismatchtea.github.io
+[pages]:  https://pages.github.com

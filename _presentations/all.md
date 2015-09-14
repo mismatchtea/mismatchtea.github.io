@@ -6,5 +6,3 @@ description: "all of the presentations in one place"
 filename: all.pdf
 tags: [algebra, number, geometry, data]
 ---
-
-here is the file {{site.presentationAssets}}/{{page.filename}}

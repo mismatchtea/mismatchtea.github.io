@@ -7,3 +7,6 @@ Use auto-prefixer on source.css to create main.css.
 ## links to resources
 
 use {{site.presentationAssets}}/{{page.filename}}
+
+## borders for images
+convert INPUT.png -bordercolor black -border 1x1 OUTPUT.png
