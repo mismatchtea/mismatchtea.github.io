@@ -19,4 +19,4 @@ Unfortunately the dialogue box that appears for 'choose next square' gives the i
 [resource]:     http://www.tes.co.uk/ResourceDetail.aspx?storyCode=6377404
 [reindeerpic]:  {{site.postAssets}}/2014/0714-reindeer.png
 [reindeer]:     {{site.postAssets}}/2014/0714-reindeer.xlsm
-[pirate]:       {% post_url 2014/2014-07-12-pirate-game %}
+[pirate]:       {% post_url 2014-07-12-pirate-game %}
