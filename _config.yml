@@ -1,10 +1,10 @@
-name:								mismatchtea
-url:								http://mismatchtea.uk
-description:				"resources and ideas for teaching maths"
-permalink:					/blog/:year/:title
-exclude:						[mmt.sublime-project,mmt.sublime-workspacel]
-postAssets:					/items #location of images and resources for posts
-presentationAssets:	/presentations/items #location of presentations
+name:               mismatchtea
+url:                http://mismatchtea.uk
+description:        "resources and ideas for teaching maths"
+permalink:          /blog/:year/:title
+exclude:            [mmt.sublime-project,mmt.sublime-workspacel]
+postAssets:         /items #location of images and resources for posts
+presentationAssets: /presentations/items #location of presentations
 sass:
     style: :compressed
 
