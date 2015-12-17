@@ -20,3 +20,6 @@ Unfortunately the dialogue box that appears for 'choose next square' gives the i
 [reindeerpic]:  {{site.postAssets}}/2014/0714-reindeer.png
 [reindeer]:     {{site.postAssets}}/2014/0714-reindeer.xlsm
 [pirate]:       http://mismatchtea.co.uk/blog/2014/pirate-game/
+
+<!-- the following work with Jekyll 3 but not on GitHub Pages -->
+<!-- [pirate]:       {% post_url 2014-07-12-pirate-game%} -->

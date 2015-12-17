@@ -25,9 +25,6 @@ This site is built using [Jekyll][jekyll], a static site generator.
 
 It is [hosted][hosted] on [GitHub Pages][pages], so you are welcome to take a look.
 
-### images
-Some of the images use the .svg format, which require a modern browser to render.
-
 ### beamer presentations
 These presentations use the Beamer $$\LaTeX{}$$ class to produce PDFs. In order to run them as a presentation in [Adobe Reader][reader] use ```ctrl + L ``` (windows).
 
