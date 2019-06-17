@@ -8,14 +8,6 @@ title: about
 
 ![tea][tea]
 
-I'm a maths teacher at a secondary school in Lincolnshire. The primary purpose of the [blog][blog] is for me to keep a record of my experiences in the classroom. Resources I have created are shared in the [presentations][presentations] section of the website.
-
-## elswhere
-
-* Follow me on [twitter][twitter]
-* My [GeoGebraTube][geogebratube] resources
-* Resources I have created on the [TES][tes]
-
 ## this site
 
 ### generator
@@ -35,9 +27,6 @@ The majority of the resources and images on the site have been created by me. An
 Any views or opinions presented on this blog are my own and do not necessarily represent those of my employer.
 
 [tea]: {{site.postAssets}}/about/tea.svg
-[twitter]: https://twitter.com/mismatchtea
-[geogebratube]: http://www.geogebratube.org/user/profile/id/659/p/materials
-[tes]: https://www.tes.co.uk/mypublicprofile.aspx?uc=734854&profileTab=resources
 [jekyll]: http://jekyllrb.com/
 [jekyllimage]: {{site.postAssets}}/about/jekyll.png
 [reader]: http://get.adobe.com/uk/reader/
