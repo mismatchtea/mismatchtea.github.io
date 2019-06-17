@@ -7,8 +7,6 @@ categories: [general]
 tags: [inquiry, geogebra, latex]
 ---
 
-Welcome to my new site. This is the blog of a maths teacher in North Lincolnshire. Having taught for over 4 years I thought it would be useful to record and reflect upon some of some of my experiences in the classroom, including
-
 * lessons
 * resources
 * pedagogy
