@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			html {
+    font-family: monospace;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #2e3440;
+    color: #eceff4;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100%;
+    width: inherit;
+}
+
+.favourites {
+    display:    flex;
+    flex-direction: column;
+    flex-wrap:  wrap;
+}
+
+.favourites-list {
+    text-align: center;
+    width:  10rem;
+    margin: 2rem;
+}
+
+.search {
+    width: 90%;
+    max-width: 30rem;
+    padding: 0.5rem;
+    border: 1px solid #4c566a;
+}
+
+.search-box {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    color:  inherit;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #d8dee9;
+    outline: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a:hover {
+    color: #2e3440;
+    background-color: #4c566a;
+}
+
+p {
+    font-weight: bold;
+    color: #d08770;
+    text-align: left;
+    border-bottom: 1px solid #d08770;
+    padding-right: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+.favourites {
+    flex-direction: row;
+} 
+		</style>
+		<title>startpage</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="favourites">
+				<div class="favourites-list">
+                    <p>productivity</p>
+					<ul>
+						<li><a href="https://inbox.google.com">gmail</a></li>
+						<li><a href="https://calendar.google.com">calendar</a></li>
+					</ul>
+				</div>
+
+				<div class="favourites-list">
+					<p>media</p>
+					<ul>
+						<li><a href="https://youtube.com">youtube</a></li>
+						<li><a href="https://asciinema.org">asciinema and a long title</a></li>
+						<li><a href="https://asciinema.org">asciinema</a></li>
+						<li><a href="https://asciinema.org">asciinema</a></li>
+					</ul>
+				</div>
+
+				<div class="favourites-list">
+					<p>nix</p>
+					<ul>
+						<li><a href="https://github.com">github</a></li>
+						<li><a href="https://localhost:8384">syncthing</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="search">
+				<form method="get" action="https://google.co.uk/search">
+					<input class="search-box" name="q" type="text" placeholder="search" />
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>
